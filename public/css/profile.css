@@ -1,0 +1,106 @@
+.nama {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.edit-icon {
+    font-size: 18px;
+    color: #007BFF;
+    /* Warna ikon pensil */
+    cursor: pointer;
+}
+
+.edit-icon:hover {
+    text-decoration: underline;
+}
+
+/* CSS untuk elemen input */
+.editable-input {
+    display: none;
+    /* Sembunyikan input awal */
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+/* CSS untuk tampilan data profil */
+.profile-data {
+    display: inline;
+}
+
+/* CSS untuk ikon centang */
+.save-icon {
+    display: none;
+    /* Sembunyikan ikon centang awal */
+    font-size: 18px;
+    color: #28a745;
+    /* Warna ikon centang */
+    cursor: pointer;
+}
+
+.save-icon:hover {
+    text-decoration: underline;
+}
+
+.profile-container {
+    margin: 30px auto;
+    /* Mengatur margin atas dan bawah menjadi 30px, dan margin horizontal menjadi auto */
+    text-align: center;
+    background-color: #fff;
+    /* Warna latar belakang kontainer profil */
+    max-width: 90%;
+    height: 90%;
+    /* Lebar maksimum kontainer */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    /* Efek bayangan */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #007BFF;
+    /* Warna logo */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    /* Ukuran tulisan judul profil */
+    color: #333;
+    /* Warna judul */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 20px;
+    /* Ukuran tulisan informasi profil */
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007BFF;
+    /* Warna tombol */
+    color: #fff;
+    /* Warna teks tombol */
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    /* Warna tombol saat dihover */
+}

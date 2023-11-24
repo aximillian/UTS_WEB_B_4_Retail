@@ -1,0 +1,145 @@
+/* header */
+.header .header-1{
+  background: var(--secondary);
+  padding: 1vw 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .header-1 .logo{
+  text-decoration: none;
+  font-size: 4rem;
+  font-weight: bolder;
+  color: var(--light);
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  /* Mengatur jarak yang sama antara ikon-ikon dan teks */
+  align-items: center;
+  padding: 10px;
+  /* Atur padding jika diperlukan */
+}
+
+.icons>* {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Mengatur ikon dan teks secara vertikal di tengah */
+  text-decoration: none;
+  color: white;
+  /* Atur warna teks sesuai kebutuhan */
+}
+
+.icons i {
+  font-size: 24px;
+  /* Atur ukuran ikon sesuai kebutuhan */
+  margin-bottom: 5px;
+  /* Jarak antara ikon dan teks */
+}
+
+.header .header-1 .search-form{
+width: 50rem;
+height: 5rem;
+border: var(--text-gray);
+overflow: hidden;
+background: var(--light);
+display: flex;
+align-items: center;
+border-radius: .5rem;
+margin-left: 30rem;
+}
+
+.header .header-1 .search-form input{
+font-size: 1.6rem;
+padding: 0 1.2rem;
+height: 100%;
+width: 100%;
+text-transform: none;
+color: var(--light);
+}
+
+.header .header-1 .search-form label{
+font-size: 2.5rem;
+padding: 1.5rem;
+color: var(--third);
+cursor: pointer;
+}
+
+.header .header-1 .search-form label:hover{
+color: var(--primary) ;
+}
+
+.header .header-1 .icons div, a{
+  font-size: 2.5rem;
+  margin-right: 15px;
+  color: var(--light);
+}
+
+.header .header-1 .icons div:hover, a:hover{
+  color: var(--primary);
+}
+
+#search-btn{
+  display: none;
+}
+
+
+
+/* header kedua *fixed */
+
+.header .header-2{
+  background: var(--third);
+}
+
+.header .header-2 .navbar{
+  text-align: center;
+  padding: 1rem 25%;
+
+}
+
+.header .header-2 .navbar a{
+  color: white;
+  display: inline-block;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.header .header-2 .navbar a:hover{
+  background: var(--primary);
+  border-radius: 2rem;
+}
+
+.header .header-2.active{
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+}
+
+
+
+/* navbar  bawah if resolusi mengecil */
+
+.bottom-navbar{
+  text-align: center;
+  background: var(--secondary);
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  z-index: 1000;
+  display: none;
+}
+
+
+.bottom-navbar a{
+  font-size: 2.5rem;
+  padding: 2rem;
+  color: var(--light);
+}
+
+
+.bottom-navbar a:hover{
+  background: var(--primary);
+  border-radius: 1.5rem;
+}
